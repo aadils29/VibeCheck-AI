@@ -39,6 +39,21 @@ Simple 3-layer "AI wrapper":
 - Keep the system prompt as a constant, easy to find and tweak
 - Handle API errors gracefully with user-friendly messages in the UI
 
+## Git Workflow
+
+- Make small, focused commits — one logical change per commit
+- Use conventional commit messages (e.g., `feat: add vibe input field`, `fix: handle empty API response`, `docs: update README`)
+- Always commit after completing a meaningful unit of work — don't batch unrelated changes
+- Run a `git status` before committing to review what's staged
+- Never commit secrets, `.env` files, or API keys
+
+## Working With Me (the user)
+
+- **Always ask before proceeding** if a step requires something I need to provide — API keys, service credentials, account setup, or any external dependency
+- Don't assume keys or secrets are already configured — ask me to confirm
+- If a decision could go multiple ways (e.g., choosing between two libraries, structuring something), briefly present the options and let me pick
+- If you're unsure about a requirement, ask — don't guess
+
 ## Important Context
 
 - See `prd.md` for the full product requirements document
